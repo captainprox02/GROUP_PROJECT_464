@@ -7,3 +7,8 @@ C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.csproj.CoreCompileInputs.cache
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.exe
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.pdb
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_DangNhapKH.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_DangNhapNV.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_ThemXeDuLich.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_XeDuLich.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_SuaXeDuLich.resources

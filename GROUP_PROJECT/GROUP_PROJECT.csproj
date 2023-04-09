@@ -46,14 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frm_DangNhapKH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frm_DangNhapKH.Designer.cs">
+      <DependentUpon>frm_DangNhapKH.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DangNhapNV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DangNhapNV.Designer.cs">
+      <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SuaXeDuLich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SuaXeDuLich.Designer.cs">
+      <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThemXeDuLich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThemXeDuLich.Designer.cs">
+      <DependentUpon>frm_ThemXeDuLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_XeDuLich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_XeDuLich.Designer.cs">
+      <DependentUpon>frm_XeDuLich.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LopDungChung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_DangNhapKH.resx">
+      <DependentUpon>frm_DangNhapKH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DangNhapNV.resx">
+      <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SuaXeDuLich.resx">
+      <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThemXeDuLich.resx">
+      <DependentUpon>frm_ThemXeDuLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_XeDuLich.resx">
+      <DependentUpon>frm_XeDuLich.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +115,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
