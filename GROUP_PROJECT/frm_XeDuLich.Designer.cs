@@ -60,6 +60,7 @@
 			this.btn_Thoat.TabIndex = 50;
 			this.btn_Thoat.Text = "Thoát";
 			this.btn_Thoat.UseVisualStyleBackColor = true;
+			this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
 			// 
 			// btn_Them
 			// 
@@ -219,6 +220,7 @@
 			this.btn_Xoa.TabIndex = 52;
 			this.btn_Xoa.Text = "Xoá";
 			this.btn_Xoa.UseVisualStyleBackColor = true;
+			this.btn_Xoa.Click += new System.EventHandler(this.btn_Xoa_Click);
 			// 
 			// dataGridView1
 			// 

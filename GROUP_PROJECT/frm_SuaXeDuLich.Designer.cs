@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.button1 = new System.Windows.Forms.Button();
+			this.btn_Sua = new System.Windows.Forms.Button();
 			this.btn_Thoat = new System.Windows.Forms.Button();
 			this.txt_SoChoNgoi = new System.Windows.Forms.TextBox();
 			this.label7 = new System.Windows.Forms.Label();
@@ -48,14 +48,15 @@
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// button1
+			// btn_Sua
 			// 
-			this.button1.Location = new System.Drawing.Point(419, 407);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(75, 23);
-			this.button1.TabIndex = 68;
-			this.button1.Text = "Sửa";
-			this.button1.UseVisualStyleBackColor = true;
+			this.btn_Sua.Location = new System.Drawing.Point(419, 407);
+			this.btn_Sua.Name = "btn_Sua";
+			this.btn_Sua.Size = new System.Drawing.Size(75, 23);
+			this.btn_Sua.TabIndex = 68;
+			this.btn_Sua.Text = "Sửa";
+			this.btn_Sua.UseVisualStyleBackColor = true;
+			this.btn_Sua.Click += new System.EventHandler(this.btn_Sua_Click);
 			// 
 			// btn_Thoat
 			// 
@@ -65,12 +66,12 @@
 			this.btn_Thoat.TabIndex = 67;
 			this.btn_Thoat.Text = "Thoát";
 			this.btn_Thoat.UseVisualStyleBackColor = true;
+			this.btn_Thoat.Click += new System.EventHandler(this.btn_Thoat_Click);
 			// 
 			// txt_SoChoNgoi
 			// 
 			this.txt_SoChoNgoi.Location = new System.Drawing.Point(143, 302);
 			this.txt_SoChoNgoi.Name = "txt_SoChoNgoi";
-			this.txt_SoChoNgoi.ReadOnly = true;
 			this.txt_SoChoNgoi.Size = new System.Drawing.Size(148, 20);
 			this.txt_SoChoNgoi.TabIndex = 65;
 			// 
@@ -87,7 +88,6 @@
 			// 
 			this.txt_TieuChuanBang.Location = new System.Drawing.Point(143, 259);
 			this.txt_TieuChuanBang.Name = "txt_TieuChuanBang";
-			this.txt_TieuChuanBang.ReadOnly = true;
 			this.txt_TieuChuanBang.Size = new System.Drawing.Size(148, 20);
 			this.txt_TieuChuanBang.TabIndex = 63;
 			// 
@@ -130,7 +130,6 @@
 			// 
 			this.txt_TrongTai.Location = new System.Drawing.Point(143, 176);
 			this.txt_TrongTai.Name = "txt_TrongTai";
-			this.txt_TrongTai.ReadOnly = true;
 			this.txt_TrongTai.Size = new System.Drawing.Size(148, 20);
 			this.txt_TrongTai.TabIndex = 58;
 			// 
@@ -147,7 +146,6 @@
 			// 
 			this.txt_TenXe.Location = new System.Drawing.Point(143, 137);
 			this.txt_TenXe.Name = "txt_TenXe";
-			this.txt_TenXe.ReadOnly = true;
 			this.txt_TenXe.Size = new System.Drawing.Size(148, 20);
 			this.txt_TenXe.TabIndex = 56;
 			// 
@@ -164,7 +162,6 @@
 			// 
 			this.txt_BienSo.Location = new System.Drawing.Point(143, 95);
 			this.txt_BienSo.Name = "txt_BienSo";
-			this.txt_BienSo.ReadOnly = true;
 			this.txt_BienSo.Size = new System.Drawing.Size(148, 20);
 			this.txt_BienSo.TabIndex = 54;
 			// 
@@ -181,7 +178,6 @@
 			// 
 			this.txt_MaXe.Location = new System.Drawing.Point(143, 58);
 			this.txt_MaXe.Name = "txt_MaXe";
-			this.txt_MaXe.ReadOnly = true;
 			this.txt_MaXe.Size = new System.Drawing.Size(148, 20);
 			this.txt_MaXe.TabIndex = 52;
 			// 
@@ -195,13 +191,14 @@
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
 			this.pictureBox1.TabIndex = 66;
 			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
 			// 
 			// frm_SuaXeDuLich
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(625, 450);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btn_Sua);
 			this.Controls.Add(this.btn_Thoat);
 			this.Controls.Add(this.txt_SoChoNgoi);
 			this.Controls.Add(this.label7);
@@ -229,7 +226,7 @@
 
 		#endregion
 
-		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Button btn_Sua;
 		private System.Windows.Forms.Button btn_Thoat;
 		private System.Windows.Forms.TextBox txt_SoChoNgoi;
 		private System.Windows.Forms.Label label7;

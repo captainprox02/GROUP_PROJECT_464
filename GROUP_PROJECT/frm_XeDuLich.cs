@@ -102,5 +102,47 @@ namespace GROUP_PROJECT
 				MessageBox.Show("Hãy chọn xe cần sửa !");
 			}
 		}
+
+		private void btn_Thoat_Click(object sender, EventArgs e)
+		{
+			if (DialogResult.Yes == MessageBox.Show(("Bạn muốn đóng chứ ?"), "Đóng", MessageBoxButtons.YesNo))
+			{
+				this.Close();
+			}
+		}
+
+		private void btn_Xoa_Click(object sender, EventArgs e)
+		{
+			string MaXe = txt_MaXe.Text;
+			if (MaXe != "" && MaXe != null)
+			{
+				if (DialogResult.Yes == MessageBox.Show("Bạn có muốn xóa xe này không ?", "Xóa", MessageBoxButtons.YesNo))
+				{
+					string sql = "DELETE FROM XeDuLich WHERE MaXe = '" + MaXe + "'";
+					try
+					{
+						lopDungChung.Connect();
+						int ketqua = lopDungChung.setData(sql);
+						if (ketqua >= 1)
+						{
+							MessageBox.Show("Xóa thành công");
+							loadXeDuLich();
+						}else{
+							MessageBox.Show("Xóa thất bại");
+						}
+						lopDungChung.close();
+					}
+					catch (System.Exception)
+					{
+						
+						throw new System.Exception("Không thể kết nối đến cơ sở dữ liệu");
+					}
+				}
+			}
+			else
+			{
+				MessageBox.Show("Hãy chọn xe cần xóa !");
+			}
+		}
 	}
 }
