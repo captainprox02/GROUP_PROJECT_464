@@ -25,9 +25,9 @@ namespace GROUP_PROJECT
 			int ketqua = lopchung.Scalar(sqlDN);
 			if (ketqua >= 1)
 			{
-				frm_NhanVien NV = new frm_NhanVien();
-				NV.Show();
-				this.Hide();
+				//frm_NhanVien NV = new frm_NhanVien();
+				//NV.Show();
+				//this.Hide();
 			}
 			else MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
 		}

@@ -178,6 +178,7 @@
 			// 
 			this.txt_MaXe.Location = new System.Drawing.Point(143, 58);
 			this.txt_MaXe.Name = "txt_MaXe";
+			this.txt_MaXe.ReadOnly = true;
 			this.txt_MaXe.Size = new System.Drawing.Size(148, 20);
 			this.txt_MaXe.TabIndex = 52;
 			// 
@@ -228,20 +229,20 @@
 
 		private System.Windows.Forms.Button btn_Sua;
 		private System.Windows.Forms.Button btn_Thoat;
-		private System.Windows.Forms.TextBox txt_SoChoNgoi;
 		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.TextBox txt_TieuChuanBang;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.DateTimePicker date_NgayDangKiem;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox txt_TrongTai;
 		private System.Windows.Forms.Label label999;
-		private System.Windows.Forms.TextBox txt_TenXe;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox txt_BienSo;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox txt_MaXe;
-		private System.Windows.Forms.PictureBox pictureBox1;
+		public System.Windows.Forms.TextBox txt_SoChoNgoi;
+		public System.Windows.Forms.TextBox txt_TieuChuanBang;
+		public System.Windows.Forms.DateTimePicker date_NgayDangKiem;
+		public System.Windows.Forms.TextBox txt_TrongTai;
+		public System.Windows.Forms.TextBox txt_TenXe;
+		public System.Windows.Forms.TextBox txt_BienSo;
+		public System.Windows.Forms.TextBox txt_MaXe;
+		public System.Windows.Forms.PictureBox pictureBox1;
 	}
 }

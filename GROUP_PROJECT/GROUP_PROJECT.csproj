@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\BLL_SuaXeDuLich.cs" />
+    <Compile Include="BLL\BLL_ThemXeDuLich.cs" />
+    <Compile Include="DAL\DAL_SuaXeDuLich.cs" />
+    <Compile Include="DAL\DAL_ThemXeDuLich.cs" />
     <Compile Include="frm_DangNhapKH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,22 +62,22 @@
     <Compile Include="frm_DangNhapNV.Designer.cs">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_SuaXeDuLich.cs">
+    <Compile Include="GUI\frm_SuaXeDuLich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_SuaXeDuLich.Designer.cs">
+    <Compile Include="GUI\frm_SuaXeDuLich.Designer.cs">
       <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_ThemXeDuLich.cs">
+    <Compile Include="GUI\frm_ThemXeDuLich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_ThemXeDuLich.Designer.cs">
+    <Compile Include="GUI\frm_ThemXeDuLich.Designer.cs">
       <DependentUpon>frm_ThemXeDuLich.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_XeDuLich.cs">
+    <Compile Include="GUI\frm_XeDuLich.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_XeDuLich.Designer.cs">
+    <Compile Include="GUI\frm_XeDuLich.Designer.cs">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
     </Compile>
     <Compile Include="LopDungChung.cs" />
@@ -85,13 +89,13 @@
     <EmbeddedResource Include="frm_DangNhapNV.resx">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_SuaXeDuLich.resx">
+    <EmbeddedResource Include="GUI\frm_SuaXeDuLich.resx">
       <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_ThemXeDuLich.resx">
+    <EmbeddedResource Include="GUI\frm_ThemXeDuLich.resx">
       <DependentUpon>frm_ThemXeDuLich.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_XeDuLich.resx">
+    <EmbeddedResource Include="GUI\frm_XeDuLich.resx">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

@@ -239,24 +239,23 @@
 		}
 
 		#endregion
-
-		private System.Windows.Forms.TextBox txt_SoChoNgoi;
 		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.TextBox txt_TieuChuanBang;
 		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.DateTimePicker date_NgayDangKiem;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox txt_TrongTai;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.TextBox txt_TenXe;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox txt_BienSo;
 		private System.Windows.Forms.Label label1;
-		private System.Windows.Forms.TextBox txt_MaXe;
-		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.Label label8;
 		private System.Windows.Forms.Button btn_Them;
 		private System.Windows.Forms.Button btn_Thoat;
+		public System.Windows.Forms.TextBox txt_SoChoNgoi;
+		public System.Windows.Forms.TextBox txt_TieuChuanBang;
+		public System.Windows.Forms.DateTimePicker date_NgayDangKiem;
+		public System.Windows.Forms.TextBox txt_TrongTai;
+		public System.Windows.Forms.TextBox txt_TenXe;
+		public System.Windows.Forms.TextBox txt_BienSo;
+		public System.Windows.Forms.TextBox txt_MaXe;
+		public System.Windows.Forms.PictureBox pictureBox1;
 	}
 }
