@@ -58,6 +58,7 @@
     <Compile Include="frm_DangNhapNV.Designer.cs">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Include="frm_SuaXeDuLich.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +77,8 @@
     <Compile Include="frm_XeDuLich.Designer.cs">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
     </Compile>
+=======
+>>>>>>> Stashed changes
     <Compile Include="LopDungChung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +88,7 @@
     <EmbeddedResource Include="frm_DangNhapNV.resx">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< Updated upstream
     <EmbeddedResource Include="frm_SuaXeDuLich.resx">
       <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +98,8 @@
     <EmbeddedResource Include="frm_XeDuLich.resx">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> Stashed changes
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -16,5 +16,18 @@ namespace GROUP_PROJECT
         {
             InitializeComponent();
         }
+        LopDungChung lopchung = new LopDungChung();
+        private void btn_DangNhapKH_Click(object sender, EventArgs e)
+        {
+            string sqlDN = "select count (*) from KhachHang where TenTaiKhoan ='" + txt_TaiKhoanKH.Text + "'and MatKhau='" + txt_MatKhauKH.Text + "' ";
+            int ketqua = lopchung.Scalar(sqlDN);
+            if (ketqua >= 1)
+            {
+                //frm_KhachHang SV = new frm_KhachHang();
+                //SV.Show();
+                //this.Hide();
+            }
+            else MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu");
+        }
     }
 }
