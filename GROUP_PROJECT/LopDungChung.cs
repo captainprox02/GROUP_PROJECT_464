@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,6 +11,7 @@ namespace GROUP_PROJECT
 {
     class LopDungChung
     {
+<<<<<<< Updated upstream
 		SqlConnection connect;
 
 		public void Connect()
@@ -62,4 +64,21 @@ namespace GROUP_PROJECT
 			}
 		}
 	}
+=======
+        string chuoiKetNoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\12doa\source\repos\doan\doan\Database1.mdf;Integrated Security=True";
+        SqlConnection conn;
+        public LopDungChung()
+        {
+            conn = new SqlConnection(chuoiKetNoi);
+        }
+        public int Scalar(string sqlScalar)
+        {
+            SqlCommand comm = new SqlCommand(sqlScalar, conn);
+            conn.Open();
+            int dem = (int)comm.ExecuteScalar();
+            conn.Close();
+            return dem;
+        }
+    }
+>>>>>>> Stashed changes
 }
