@@ -61,5 +61,14 @@ namespace GROUP_PROJECT
 				close();
 			}
 		}
+
+		public int Scalar(string sqlScalar)
+		{
+			Connect();
+			SqlCommand comm = new SqlCommand(sqlScalar, connect);
+			int dem = (int)comm.ExecuteScalar();
+			connect.Close();
+			return dem;
+		}
 	}
 }
