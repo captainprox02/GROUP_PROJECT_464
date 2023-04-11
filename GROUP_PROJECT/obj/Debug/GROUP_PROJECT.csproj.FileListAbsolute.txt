@@ -12,3 +12,11 @@ C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_ThemXeDuLich.resources
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_XeDuLich.resources
 C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_SuaXeDuLich.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_DatXe.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_KhachHang.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_NhanVien.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_SuaXeChoHang.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_ThemXeChoHang.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_XeChoHang.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_HuyXe.resources
+C:\Users\Hoang Luu\OneDrive - ctnprox\Documents\GROUP_PROJECT_464\GROUP_PROJECT\obj\Debug\GROUP_PROJECT.frm_PheDuyetXe.resources

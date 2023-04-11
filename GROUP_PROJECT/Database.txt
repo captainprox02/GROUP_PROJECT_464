@@ -1,0 +1,65 @@
+CREATE TABLE [dbo].[HopDongChoThue] (
+    [MaHopDong]  INT           IDENTITY (1, 1) NOT NULL,
+    [MaKH] NVARCHAR(50) NULL, 
+    [MaXe]       NVARCHAR (50) NULL,
+    [MaNhanVien] NVARCHAR (50) NULL,
+    [LoaiXe]     NVARCHAR (50) NULL,
+    [SoNgayThue] INT           NULL,
+    [DonGia]     FLOAT (53)    NULL,
+    [NgayThue]   DATE          NULL,
+    [TrangThai] NVARCHAR(50) NULL DEFAULT N'Chờ phê duyệt',
+    PRIMARY KEY CLUSTERED ([MaHopDong] ASC)
+);
+
+CREATE TABLE [dbo].[KhachHang] (
+    [MaKhachHang] NVARCHAR (50) NOT NULL,
+    [TenTaiKhoan] VARCHAR (50)  NOT NULL,
+    [MatKhau]     VARCHAR (50)  NOT NULL,
+    [SoChungMinh] NVARCHAR (50) NULL,
+    [HoTen]       NVARCHAR (50) NULL,
+    [DiaChi]      NVARCHAR (50) NULL,
+    [DienThoai]   NVARCHAR (50) NULL,
+    [HangBangLai] INT           NULL,
+    PRIMARY KEY CLUSTERED ([MaKhachHang] ASC)
+);
+
+CREATE TABLE [dbo].[NhanVien] (
+    [MaNhanVien]    NVARCHAR (50) NOT NULL,
+    [TenTaiKhoan]   VARCHAR (50)  NOT NULL,
+    [MatKhau]       VARCHAR (50)  NOT NULL,
+    [SoChungMinh]   NVARCHAR (50) NULL,
+    [HoTen]         NVARCHAR (50) NULL,
+    [DiaChi]        NVARCHAR (50) NULL,
+    [DienThoai]     NVARCHAR (50) NULL,
+    [NgayVaoCoQuan] DATE          DEFAULT (getdate()) NULL,
+    PRIMARY KEY CLUSTERED ([MaNhanVien] ASC)
+);
+
+CREATE TABLE [dbo].[XeChoHang] (
+    [MaXe]          NVARCHAR (50) NOT NULL,
+    [BienSo]        NVARCHAR (50) NULL,
+    [TenXe]         NVARCHAR (50) NULL,
+    [TrongTai]      INT           NULL,
+    [NgayDangKiem]  DATE          NULL,
+    [TieuChuanBang] INT           NULL,
+    [SoTan]         INT           NULL,
+    [HinhAnh] NVARCHAR(50) NULL, 
+    PRIMARY KEY CLUSTERED ([MaXe] ASC)
+);
+
+CREATE TABLE [dbo].[XeDuLich] (
+    [MaXe]          NVARCHAR (50) NOT NULL,
+    [BienSo]        NVARCHAR (50) NULL,
+    [TenXe]         NVARCHAR (50) NULL,
+    [TrongTai]      INT           NULL,
+    [NgayDangKiem]  DATE          NULL,
+    [TieuChuanBang] INT           NULL,
+    [SoChoNgoi]     INT           NULL,
+    [HinhAnh]       NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([MaXe] ASC)
+);
+
+
+
+
+

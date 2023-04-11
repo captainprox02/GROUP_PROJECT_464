@@ -16,7 +16,7 @@ namespace GROUP_PROJECT
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new frm_XeDuLich());
+			Application.Run(new frm_DangNhapKH());
 		}
 	}
 }

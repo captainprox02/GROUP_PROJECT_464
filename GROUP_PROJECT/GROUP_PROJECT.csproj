@@ -46,21 +46,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\BLL_DNKH.cs" />
+    <Compile Include="BLL\BLL_DNNV.cs" />
     <Compile Include="BLL\BLL_SuaXeDuLich.cs" />
     <Compile Include="BLL\BLL_ThemXeDuLich.cs" />
+    <Compile Include="DAL\DAL_DNKH.cs" />
+    <Compile Include="DAL\DAL_DNNV.cs" />
     <Compile Include="DAL\DAL_SuaXeDuLich.cs" />
     <Compile Include="DAL\DAL_ThemXeDuLich.cs" />
-    <Compile Include="frm_DangNhapKH.cs">
+    <Compile Include="frm_PheDuyetXe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_DangNhapKH.Designer.cs">
+    <Compile Include="frm_PheDuyetXe.Designer.cs">
+      <DependentUpon>frm_PheDuyetXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SuaXeChoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SuaXeChoHang.Designer.cs">
+      <DependentUpon>frm_SuaXeChoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ThemXeChoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ThemXeChoHang.Designer.cs">
+      <DependentUpon>frm_ThemXeChoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_XeChoHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_XeChoHang.Designer.cs">
+      <DependentUpon>frm_XeChoHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frm_DangNhapKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frm_DangNhapKH.Designer.cs">
       <DependentUpon>frm_DangNhapKH.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_DangNhapNV.cs">
+    <Compile Include="GUI\frm_DangNhapNV.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_DangNhapNV.Designer.cs">
+    <Compile Include="GUI\frm_DangNhapNV.Designer.cs">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_DatXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DatXe.Designer.cs">
+      <DependentUpon>frm_DatXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_KhachHang.Designer.cs">
+      <DependentUpon>frm_KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NhanVien.Designer.cs">
+      <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\frm_SuaXeDuLich.cs">
       <SubType>Form</SubType>
@@ -80,14 +126,41 @@
     <Compile Include="GUI\frm_XeDuLich.Designer.cs">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_HuyXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_HuyXe.Designer.cs">
+      <DependentUpon>frm_HuyXe.cs</DependentUpon>
+    </Compile>
     <Compile Include="LopDungChung.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frm_DangNhapKH.resx">
+    <EmbeddedResource Include="frm_PheDuyetXe.resx">
+      <DependentUpon>frm_PheDuyetXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SuaXeChoHang.resx">
+      <DependentUpon>frm_SuaXeChoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ThemXeChoHang.resx">
+      <DependentUpon>frm_ThemXeChoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_XeChoHang.resx">
+      <DependentUpon>frm_XeChoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frm_DangNhapKH.resx">
       <DependentUpon>frm_DangNhapKH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_DangNhapNV.resx">
+    <EmbeddedResource Include="GUI\frm_DangNhapNV.resx">
       <DependentUpon>frm_DangNhapNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DatXe.resx">
+      <DependentUpon>frm_DatXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_KhachHang.resx">
+      <DependentUpon>frm_KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NhanVien.resx">
+      <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_SuaXeDuLich.resx">
       <DependentUpon>frm_SuaXeDuLich.cs</DependentUpon>
@@ -97,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frm_XeDuLich.resx">
       <DependentUpon>frm_XeDuLich.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_HuyXe.resx">
+      <DependentUpon>frm_HuyXe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
